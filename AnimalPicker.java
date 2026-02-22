@@ -24,7 +24,11 @@ public class AnimalPicker {
 
             } else if(animal.equals("cat")) {
                 valid = true;
-             System.out.println("                        _\n                       | \\\n                       | |\n                       | |\n  |\\                   | |\n /, ~\\                / /\nX     `-.....-------./ /\n ~-. ~  ~              |\n    \\             /    |\n     \\  /_     ___\\   /\n     | /\\ ~~~~~   \\ |\n     | | \\        || |\n     | |\\ \\       || )\n    (_/ (_/      ((_/\n");
+                System.out.println("                        _\n                       | \\\n                       | |\n                       | |\n  |\\                   | |\n /, ~\\                / /\nX     `-.....-------./ /\n ~-. ~  ~              |\n    \\             /    |\n     \\  /_     ___\\   /\n     | /\\ ~~~~~   \\ |\n     | | \\        || |\n     | |\\ \\       || )\n    (_/ (_/      ((_/\n");
+
+            } else if(animal.equals("fish")) {
+                valid = true;
+                System.out.println("      /`·.¸\n     /¸...¸`:·\n ¸.·´  ¸   `·.¸.·´)\n: © ):´;      ¸  {\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´");
 
             } else {
                 System.out.println("Error: Unknown animal, please try again");
@@ -32,6 +36,7 @@ public class AnimalPicker {
             }
 
         }
+
         scanner.close();
 
     }
