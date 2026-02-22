@@ -20,11 +20,11 @@ public class AnimalPicker {
             // check which animal and prints image statement
             if(animal.equals("dog")) {
                 valid = true;
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("/^-----^\\\nV  o o  V\n |  Y  |\n  \\ Q /\n  / - \\\n  |    \\\n  |     \\     )\n  || (___\\====\n");
 
             } else if(animal.equals("cat")) {
                 valid = true;
-             System.out.println("CAT ASCII ART HERE");
+             System.out.println("                        _\n                       | \\\n                       | |\n                       | |\n  |\\                   | |\n /, ~\\                / /\nX     `-.....-------./ /\n ~-. ~  ~              |\n    \\             /    |\n     \\  /_     ___\\   /\n     | /\\ ~~~~~   \\ |\n     | | \\        || |\n     | |\\ \\       || )\n    (_/ (_/      ((_/\n");
 
             } else {
                 System.out.println("Error: Unknown animal, please try again");
