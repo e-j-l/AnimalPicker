@@ -14,7 +14,7 @@ public class AnimalPicker {
         while(!valid) {
 
             // ask user which animal they want to see
-            System.out.println("Which animal would you like to see: a dog or a cat?");
+            System.out.println("Which animal would you like to see: a dog, cat, fish, or moose?");
             String animal = scanner.nextLine();
 
             // check which animal and prints image statement
@@ -30,6 +30,8 @@ public class AnimalPicker {
                 valid = true;
                 System.out.println("      /`·.¸\n     /¸...¸`:·\n ¸.·´  ¸   `·.¸.·´)\n: © ):´;      ¸  {\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´");
 
+            }else if (animal.equals("moose")){
+                System.out.println("                                          .      //\n                                       /) \\ |\\    //\n  VK                             (\\\\|  || \\)u|   |F     /)\n                                  \\```.FF  \\  \\  |J   .\'/\n                               __  `.  `|   \\  `-\'J .\'.\'\n        ______           __.--\'  `-. \\_ J    >.   `\'.\'   .\n    _.-\'      \"\"`-------\'           `-.`.`. / )>.  /.\' .<\'\n  .\'                                   `-._>--\' )\\ `--\'\'\n  F .                                          (\'.--\'\"\n (_/                                            \'\\\n  \\                                             \'o`.\n  |\\                                                `.\n  J \\          |              /      |                \\\n   L \\                       J       (             .  |\n   J  \\      .               F        _.--\'`._  /`. \\_)\n    F  `.    |                       /        \"\"   \"\'\n    F   /\\   |_          ___|   `-_.\'\n   /   /  F  J `--.___.-\'   F  - /\n  /    F  |   L            J    /|\n (_   F   |   L            F  .\'||\n  L  F    |   |           |  /J  |\n  | J     `.  |           | J  | |              ____.---.__\n  |_|______ \\  L          | F__|_|___.---------\'\n--\'        `-`--`--.___.-\'-\'---");
             } else {
                 System.out.println("Error: Unknown animal, please try again");
 
